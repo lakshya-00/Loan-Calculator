@@ -1,0 +1,27 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Transitions for theme switching */
+.MuiPaper-root,
+.MuiCard-root,
+.MuiAppBar-root,
+.MuiTableCell-root,
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Custom styles for form elements */
+.MuiSlider-root {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .MuiContainer-root {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
